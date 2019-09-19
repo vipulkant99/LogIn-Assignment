@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/nm"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/nm"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/ml"
+        android:layout_below="@+id/nm"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/ml"
+        android:layout_below="@+id/nm"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/pn"
+        android:layout_below="@+id/ml"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/pn"
+        android:layout_below="@+id/ml"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="LOG OUT"
+        android:layout_marginTop="200dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/getLocation11"
+        android:layout_below="@+id/logout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:text="Get Location"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getLocation11"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:id="@+id/latlong"/>
+
+</RelativeLayout>

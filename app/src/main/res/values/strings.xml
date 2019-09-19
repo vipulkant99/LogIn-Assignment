@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlgoFocusAssignment</string>
+    <string name="facebook_application_id" translatable="false">2306023196378572</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2306023196378572</string>
+</resources>
